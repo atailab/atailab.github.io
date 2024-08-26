@@ -19,9 +19,19 @@ main:
         
   - title: "Blog Posts"
     url: /year-archive/
+
+  - title: "Seminar"
+    url: /seminar/
+
+  - title: "Topic"
+    url: /topic/
+
+  - title: "Top Conference"
+    url: /topconference/
     
   - title: "CV"
     url: /cv/
     
   - title: "Guide"
     url: /markdown/
+
