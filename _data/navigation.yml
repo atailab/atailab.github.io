@@ -21,13 +21,13 @@ main:
     url: /year-archive/
 
   - title: "Seminar"
-    url: /files/paper1.pdf
+    url: /cv/
 
   - title: "Topic"
-    url: /files/paper1.pdf
+    url: /cv/
 
   - title: "Top Conference"
-    url: /files/paper1.pdf
+    url: /cv/
     
   - title: "CV"
     url: /cv/
