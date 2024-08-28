@@ -38,13 +38,37 @@ redirect_from:
 - 欧盟第七框架计划（FP7计划）项目WP3课题2项
 
 ## 代表性论文
-1. Xiaofei Zhu*, Zhanwang Peng, Jiafeng Guo, Stefan Dietze. "Generating effective label description for label-aware sentiment classification." *Expert Systems With Applications, 2022.* (SCI中科院一区TOP期刊, IF 8.153)
-2. Xiaofei Zhu*, Gu Tang, Pengfei Wang, Chenliang Li, Jiafeng Guo, Stefan Dietze. "Dynamic Global Structure Enhanced Multi-channel Graph Neural Network for Session-based Recommendation." *Information Sciences. 2022.* (SCI中科院一区TOP期刊, IF 8.233)
-3. Gu Tang, Xiaofei Zhu*, Jiafeng Guo, Stefan Dietze. "Time Enhanced Graph Neural Networks for Session-based Recommendation." *Knowledge-Based Systems, 2022.* (SCI中科院一区TOP期刊, IF 8.038)
-4. Yaqing Dai, Pengfei Wang, Xiaofei Zhu*. "Reasoning over Multiplex Heterogeneous Graph for Target-oriented Opinion Words Extraction." *Knowledge-Based Systems, 2022.* (SCI中科院一区TOP期刊, IF 8.038)
-5. Yuanzheng Wang*, Xueqi Cheng, Yixing Fan, Xiaofei Zhu, Huasheng Liang, Qiang Yan, Jiafeng Guo. "MGAD: Learning Descriptional Representation Distilled from Distributional Semantics for Unseen Entities." *Proceedings of the 31st International Joint Conference on Artificial Intelligence (IJCAI), 2022.* (CCF推荐A类顶会)
-6. Ling Zhu, Xiaofei Zhu*, Jiafeng Guo, Stefan Dietze. "Exploring Rich Structure Information for Aspect-based Sentiment Classification." *Journal of Intelligent Information Systems, 2022.* (SCI中科院三区，IF 1.888)
-。。。
+1. Xiaofei Zhu*, Zhanwang Peng, Jiafeng Guo, Stefan Dietze. "Generating effective label description for label-aware sentiment classification." *Expert Systems With Applications*, 2022. (SCI中科院一区TOP期刊, IF 8.153)
+
+2. Xiaofei Zhu*, Gu Tang, Pengfei Wang, Chenliang Li, Jiafeng Guo, Stefan Dietze. "Dynamic Global Structure Enhanced Multi-channel Graph Neural Network for Session-based Recommendation." *Information Sciences*, 2022. (SCI中科院一区TOP期刊, IF 8.233)
+
+3. 彭展望，朱小飞*，郭嘉丰. "标签指导的双注意力深度神经网络模型." *模式识别与人工智能*, 2022. (CCF推荐B类期刊，EI检索)
+
+4. 王婷，朱小飞*，唐顾. "基于知识增强的图卷积神经网络的文本分类." *浙江大学学报(工学版)*, 2022. (EI检索)
+
+5. 段乐乐，朱小飞*，宋红阳. "目标域特征感知与互补用户迁移的跨域推荐模型." *小型微型计算机系统*, 2022. (CCF推荐B类期刊)
+
+6. 刘思进，朱小飞*. "联合多任务学习的对话情感分类和行为识别." *第39届CCF中国数据库学术会议 (NDBC)*, 2022. (萨师煊优秀学生论文奖)
+
+7. 李程鸿，朱小飞*. "跨空间对抗融合的双通道图卷积网络." *第39届CCF中国数据库学术会议 (NDBC)*, 2022.
+
+8. 王婷，朱小飞*，唐顾. "基于双向注意力和类生成器的小样本文分类." *小型微型计算机系统*, 2022. (CCF推荐B类期刊)
+
+9. 宋红阳，朱小飞*，郭嘉丰. "基于强化依赖图的方面情感分类." *太原理工大学学报*, 2022.
+
+10. 唐顾，朱小飞*. "主题增强的多层次图神经网络会话推荐模型." *第28届全国信息检索学术会议*, 2022.
+
+11. 王新生，朱小飞*，黄贤英. "双通道知识蒸馏的节点分类方法." *小型微型计算机系统*, 2022. (CCF推荐B类期刊)
+
+12. 李程鸿，朱小飞*. "面向半监督节点分类的双通道图随机卷积网络." *小型微型计算机系统*, 2022. (CCF推荐B类期刊)
+
+13. 王佳，朱小飞*，唐顾，黄贤英. "基于多粒度融合的图卷积网络会话情感分析." *第28届全国信息检索学术会议*, 2022.
+
+14. 王新生，朱小飞*，李程鸿. "标签指导的多尺度图神经网络的PPIs预测方法." *第28届全国信息检索学术会议*, 2022.
+
+15. Xiaofei Zhu*, Ling Zhu, Jiafeng Guo, Shangsong Liang, Stefan Dietze. "GL-GCN: Global and Local Dependency Guided Graph Convolutional Networks for aspect-based sentiment classification." *Expert Systems with Applications*, 2021. (SCI中科院一区TOP期刊, IF 8.153)
+
+16. Xiaofei Zhu*, Jie Wu, Ling Zhu, Jiafeng Guo, Ran Yu, Katarina Boland, Stefan Dietze. "Exploring User Historical Semantic and Sentiment Preference for Microblog Sentiment Classification." *Neurocomputing*, 2021. (SCI中科院二区TOP期刊, IF 5.719)
 
 ## 获奖情况
 1. 2022年08月，获得第39届CCF中国数据库学术会议奖项“萨师煊优秀学生论文奖”。
