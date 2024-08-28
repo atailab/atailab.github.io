@@ -224,6 +224,13 @@ collections:
   conference:
     output: true
     permalink: /:collection/:path/
+  seminar:
+    output: true
+    permalink: /:collection/:path/
+  topic:
+    output: true
+    permalink: /:collection/:path/
+
 
 # These settings control how pages and collections are included in the site
 defaults:
@@ -286,6 +293,22 @@ defaults:
       type: conference
     values:
       layout: conference
+      author_profile: true
+      share: true
+  # _seminar
+  - scope:
+      path: ""
+      type: seminar
+    values:
+      layout: seminar
+      author_profile: true
+      share: true
+  # _topic
+  - scope:
+      path: ""
+      type: topic
+    values:
+      layout: topic
       author_profile: true
       share: true
 
