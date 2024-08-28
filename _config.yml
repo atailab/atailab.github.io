@@ -21,7 +21,7 @@ repository               : "atailab/atailab.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "朱小飞.jpg"
   name             : "Xiaofei Zhu"
   pronouns         : # example: "Professor Zhu"  
   bio              : "Vice Dean of the School of Computer Science, Chongqing University of Technology"
