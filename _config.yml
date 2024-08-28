@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 title                    : "Xiaofei Zhu / Professor, PhD"
-title_separator          : "-"
+title_separator          : "教授、博士、博士生导师、重庆英才∙创新领军人才"
 name                     : &name "Xiaofei Zhu"
 description              : &description "personal description"
 url                      : https://atailab.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
