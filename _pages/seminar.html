@@ -5,37 +5,32 @@ permalink: /seminar/
 author_profile: true
 ---
 
-<html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Seminar Record Table</title>
     <style>
-        .seminar-table {
+        table {
             width: 100%;
             border-collapse: collapse;
             margin-bottom: 20px;
         }
-        .seminar-table, .seminar-table th, .seminar-table td {
+        table, th, td {
             border: 1px solid black;
         }
-        .seminar-table th, .seminar-table td {
+        th, td {
             padding: 8px;
             text-align: left;
         }
-        .seminar-table th {
+        th {
             background-color: #f2f2f2;
-        }
-        .session-table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        .session-table th, .session-table td {
-            border-bottom: 1px solid black;
-            padding: 5px;
         }
         .session-title {
             font-weight: bold;
+        }
+        .session-row {
+            background-color: #f9f9f9;
         }
     </style>
 </head>
@@ -43,12 +38,12 @@ author_profile: true
 
 <h2>研讨会记录表</h2>
 
-<!-- 会议1 -->
-<table class="seminar-table">
+<table>
+    <!-- 会议1 -->
     <tr>
-        <th colspan="6">会议日期：2024-08-28</th>
+        <td colspan="6"><strong>会议日期：</strong> 2024-08-28</td>
     </tr>
-    <tr>
+    <tr class="session-row">
         <th>论文标题</th>
         <th>汇报人</th>
         <th>记录人</th>
@@ -56,33 +51,34 @@ author_profile: true
         <th>PDF</th>
     </tr>
     <!-- 论文1 -->
-    <table class="session-table">
-        <tr>
-            <td class="session-title">论文1标题</td>
-        </tr>
-        <tr>
-            <td>汇报人A</td>
-            <td>记录人A</td>
-            <td><a href="http://www.pptexample.com/ppt1.pdf">PPT下载</a></td>
-            <td><a href="http://www.pdfexample.com/pdf1.pdf">PDF下载</a></td>
-        </tr>
-    </table>
+    <tr>
+        <td class="session-title">论文1标题</td>
+        <td>汇报人A</td>
+        <td rowspan="2">记录人X</td> <!-- 记录人相同，使用rowspan合并 -->
+        <td><a href="http://www.pptexample.com/ppt1.pdf">PPT下载</a></td>
+        <td><a href="http://www.pdfexample.com/pdf1.pdf">PDF下载</a></td>
+    </tr>
     <!-- 论文2 -->
-    <table class="session-table">
-        <tr>
-            <td class="session-title">论文2标题</td>
-        </tr>
-        <tr>
-            <td>汇报人B</td>
-            <td>记录人B</td>
-            <td><a href="http://www.pptexample.com/ppt2.pdf">PPT查看</a></td>
-            <td><a href="http://www.pdfexample.com/pdf2.pdf">PDF查看</a></td>
-        </tr>
-    </table>
+    <tr>
+        <td class="session-title">论文2标题</td>
+        <td>汇报人B</td>
+        <td><a href="http://www.pptexample.com/ppt2.pdf">PPT查看</a></td>
+        <td><a href="http://www.pdfexample.com/pdf2.pdf">PDF查看</a></td>
+    </tr>
+    <!-- 会议2 -->
+    <tr>
+        <td colspan="6"><strong>会议日期：</strong> 2024-09-04</td>
+    </tr>
+    <tr class="session-row">
+        <th>论文标题</th>
+        <th>汇报人</th>
+        <th>记录人</th>
+        <th>PPT</th>
+        <th>PDF</th>
+    </tr>
+    <!-- 继续添加论文记录 -->
+    <!-- ... -->
 </table>
-
-<!-- 会议2 -->
-<!-- 重复上面的结构，修改日期和论文信息即可 -->
 
 </body>
 </html>
