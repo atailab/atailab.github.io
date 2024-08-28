@@ -17,9 +17,6 @@ main:
   - title: "Portfolio"
     url: /portfolio/
         
-  - title: "Blog Posts"
-    url: /year-archive/
-
   - title: "Seminar"
     url: /seminar/
 
@@ -27,11 +24,6 @@ main:
     url: /cv/
 
   - title: "Top Conference"
-    url: /cv/
+    url: /conference/
     
-  - title: "CV"
-    url: /cv/
-    
-  - title: "Guide"
-    url: /markdown/
 
