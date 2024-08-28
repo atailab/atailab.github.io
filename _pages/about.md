@@ -7,43 +7,73 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+## 个人简介
+朱小飞，教授、博士、博士生导师、重庆英才∙创新领军人才、重庆市“百名海外高层次人才聚集计划（百人计划）”人选、重庆市特聘专家、德国GESIS研究院客座教授、重庆市巴南区“菁英计划”高层次创新人才、重庆理工大学首批高层次人才、重庆市计算机视觉智能技术工程研究中心副主任。2012年博士毕业于中国科学院计算技术研究所，主要研究方向为互联网大规模内容信息的检索与推荐，毕业后加入德国汉诺威大学L3S研究中心继续开展互联网社会媒体搜索与挖掘相关方向的研究工作。
+  长期从事互联网大数据挖掘、人工智能方面的研究工作，具有较为扎实的理论基础和应用研发能力。近年来，在本研究领域包括在具有国际影响力的会议和刊物上发表论文50余篇，曾获得国际计算机协会 (ACM)国际知名奖项：ACM CIKM Best Paper，此奖是国内学者首次在该“国际著名和十分重要影响力的 (由中国计算机学会认定，并受到同行专家高度肯定)”学术大会上获得的殊荣。此外，曾荣获国际计算机领域顶级数据挖掘大赛CIKM AnalytiCup 冠军（人民日报第十九版（科技版）以“培养一流网络安全技术人才”对此进行专题报道）。具有较为丰富的国内外重要科研项目的研发经验，近年来，作为项目负责人承担多项国家级课题、欧盟第七科技框架计划国际合作项目子课题，以及多项重庆市科委和重庆市教委重点项目和研究群体项目。先后服务于多个国内外重要学术组织，包括担任2022年国内大数据领域重要学术会议“中国全国信息检索学术会议 CCIR 2022”程序委员会主席、“国际信息与知识管理领域的国际顶级学术会议CIKM 2020（CCF B类）”AnalytiCup主席等，以及多个国际顶级学术会议程序委员会委员。
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+## 研究领域
+- Web大数据分析与挖掘
+- 自然语言处理
+- 推荐系统
+- 信息检索
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+## 承担的主要项目
+- 国家级科研项目3项
+- 省部级重点项目1项
+- 省部级研究群体项目1项
+- 省部级面上项目1项
+- 省部级重大项目子课题1项
+- 省部级人才项目1项
+- 欧盟第七框架计划（FP7计划）项目WP3课题2项
 
-**Markdown generator**
+## 代表性论文
+1. Xiaofei Zhu*, Zhanwang Peng, Jiafeng Guo, Stefan Dietze. "Generating effective label description for label-aware sentiment classification." *Expert Systems With Applications, 2022.* (SCI中科院一区TOP期刊, IF 8.153)
+2. Xiaofei Zhu*, Gu Tang, Pengfei Wang, Chenliang Li, Jiafeng Guo, Stefan Dietze. "Dynamic Global Structure Enhanced Multi-channel Graph Neural Network for Session-based Recommendation." *Information Sciences. 2022.* (SCI中科院一区TOP期刊, IF 8.233)
+3. Gu Tang, Xiaofei Zhu*, Jiafeng Guo, Stefan Dietze. "Time Enhanced Graph Neural Networks for Session-based Recommendation." *Knowledge-Based Systems, 2022.* (SCI中科院一区TOP期刊, IF 8.038)
+4. Yaqing Dai, Pengfei Wang, Xiaofei Zhu*. "Reasoning over Multiplex Heterogeneous Graph for Target-oriented Opinion Words Extraction." *Knowledge-Based Systems, 2022.* (SCI中科院一区TOP期刊, IF 8.038)
+5. Yuanzheng Wang*, Xueqi Cheng, Yixing Fan, Xiaofei Zhu, Huasheng Liang, Qiang Yan, Jiafeng Guo. "MGAD: Learning Descriptional Representation Distilled from Distributional Semantics for Unseen Entities." *Proceedings of the 31st International Joint Conference on Artificial Intelligence (IJCAI), 2022.* (CCF推荐A类顶会)
+6. Ling Zhu, Xiaofei Zhu*, Jiafeng Guo, Stefan Dietze. "Exploring Rich Structure Information for Aspect-based Sentiment Classification." *Journal of Intelligent Information Systems, 2022.* (SCI中科院三区，IF 1.888)
+。。。
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+## 获奖情况
+1. 2022年08月，获得第39届CCF中国数据库学术会议奖项“萨师煊优秀学生论文奖”。
+2. 2020年10月，获得国际计算机领域顶级数据挖掘大赛CIKM AnalytiCup冠军。
+3. 2017年12月，获得全国大学生数学建模竞赛重庆赛区优秀指导教师。
+4. 2011年10月，获得国际计算机协会(ACM)颁发的国际知名奖项“ACM CIKM Best Paper”。
+5. 2011年02月，获得中国科学院计算技术研究所颁发的“中国科学院计算技术研究所优秀论文二等奖”。
+6. 2010年10月，获得中国中文信息学会计算语言学专业委员会颁发的“第五届全国青年计算语言学研讨会最优论文奖”。
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+## 学术活动
+Ÿ   全国信息检索学术会议CCIR2022程序委员会主席
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+Ÿ   国际人工智能与大数据学术会议 ICAIBD 2022出版主席
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+Ÿ   国际信息与知识管理顶级学术会议CIKM2020 评测主席
+
+Ÿ   全国信息检索学术会议CCIR2020评测主席
+
+Ÿ   国际信息检索领域顶级学术会议SIGIR2022 程序委员会委员
+
+Ÿ   国际知识发现与数据挖掘领域顶级学术会议SIGKDD 2022程序委员会委员
+
+Ÿ   国际人工智能领域顶级学术会议AAAI 2022程序委员会委员
+
+Ÿ   国际自然语言处理领域顶级学术会议ACL 2022程序委员会委员
+
+Ÿ   国际Web搜索和数据挖掘领域顶级学术会议WSDM 2022程序委员会委员
+
+Ÿ   美国电气电子工程师学会知识与数据工程会刊IEEE Transactions on Knowledge and Data Engineering (IEEE TKDE) 审稿专家
+
+Ÿ   美国计算机学会信息系统会刊ACM Transactions on Information Systems (ACM TOIS) 审稿专家
+
+Ÿ   美国电气电子工程师学会神经网络与学习系统会刊IEEE Transactions on Neural Networks and Learning Systems (TNNLS) 审稿专家
+
+ 
+
+
+
+
+
