@@ -281,13 +281,13 @@ defaults:
       author_profile: true
       share: true
   # _conference
-    - scope:
-        path: ""
-        type: conference
-      values:
-        layout: conference
-        author_profile: true
-        share: true
+  - scope:
+      path: ""
+      type: conference
+    values:
+      layout: conference
+      author_profile: true
+      share: true
 
 # Sass/SCSS
 sass:
