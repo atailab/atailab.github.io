@@ -38,12 +38,13 @@ author_profile: true
     <tr>
         <td>主题1</td>
         <td>汇报人A</td>
-        <td><a href="http://www.pptexample.com/slide1.pdf">PPT下载</a></td>
+      
+        <td><a href="../files/paper1.pdf">PPT下载</a></td>
     </tr>
     <tr>
         <td>主题2</td>
         <td>汇报人B</td>
-        <td><a href="http://www.pptexample.com/slide2.pdf">PPT查看</a></td>
+        <td><a href="../files/paper1.pdf">PPT下载</a></td>
     </tr>
     <!-- 更多主题行 -->
 </table>
