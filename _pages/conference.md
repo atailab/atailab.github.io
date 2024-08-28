@@ -4,7 +4,7 @@ title: "Top Conference"
 permalink: /conference/
 author_profile: true
 ---
-< html>
+<html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
