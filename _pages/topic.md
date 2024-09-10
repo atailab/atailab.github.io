@@ -37,10 +37,10 @@ author_profile: true
         <th>CODE</th>
     </tr>
     <tr>
-        <td>主题1</td>
-        <td>汇报人A</td>
+        <td>对抗损失</td>
+        <td>赖雨阳</td>
       
-        <td><a href="../files/paper1.pdf">PPT下载</a></td>
+        <td><a href="../files/对抗损失.pptx">PPT下载</a></td>
          <td><a href="../files/adversarial_loss.py">CODE下载</a></td>
     </tr>
     <tr>
